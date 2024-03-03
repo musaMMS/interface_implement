@@ -1,22 +1,31 @@
-// abstract class as interface
-abstract class Jabe {
-  void start();
-  void stop();
-}
-// implements interface
-class Car implements Jabe {
-  @override
-  void start() {
-    print('Car started');
-  }
 
-  @override
-  void stop() {
-    print('Car stopped');
-  }
-}
+// Switch case use
+
 void main() {
-  var car = Car();
-  car.start();
-  car.stop();
+  int day =10;
+  switch  (day){
+    case 1:
+    print('Sutarday');
+    break;
+    case 2:
+    print('Sunday');
+    break;
+    case 3:
+    print('Monday');
+    break;
+    case  4:
+    print('Tuesday');
+    break;
+    case  5:
+    print('Wenesday');
+    break;
+    case  6:
+    print('Thuesday');
+    break;
+    case 7:
+    print('Firday');
+    break;
+    default:
+      print('Invaild');
+  }
 }
